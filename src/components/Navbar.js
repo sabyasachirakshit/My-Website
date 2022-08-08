@@ -22,18 +22,28 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <a
+                  className="nav-link"
+                  aria-current="page"
+                  href="https://sabyasachirakshit.github.io/My-Website"
+                >
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <a
+                  className="nav-link"
+                  href="https://sabyasachirakshit.github.io/about"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/project">
+                <a
+                  className="nav-link"
+                  href="https://sabyasachirakshit.github.io/project"
+                >
                   Project
                 </a>
               </li>
