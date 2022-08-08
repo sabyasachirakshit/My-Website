@@ -7,18 +7,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/"
-            element={<HomeBody />}
-          />
-          <Route
-            path="/about"
-            element={<About />}
-          />
-          <Route
-            path="/project"
-            element={<Project />}
-          />
+          <Route path="/My-Website" element={<HomeBody />} />
+          <Route path="/My-Website/about" element={<About />} />
+          <Route path="/My-Website/project" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </>
