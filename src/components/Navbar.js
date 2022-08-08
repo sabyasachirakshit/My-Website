@@ -25,7 +25,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   aria-current="page"
-                  href="https://sabyasachirakshit.github.io/My-Website"
+                  href="/"
                 >
                   Home
                 </a>
@@ -34,7 +34,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://sabyasachirakshit.github.io/about"
+                  href="/about"
                 >
                   About
                 </a>
@@ -42,7 +42,7 @@ function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://sabyasachirakshit.github.io/project"
+                  href="/project"
                 >
                   Project
                 </a>

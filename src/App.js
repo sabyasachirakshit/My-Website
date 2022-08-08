@@ -1,27 +1,26 @@
 import HomeBody from "./components/HomeBody";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Project from "./components/Project";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route
-            path="https://sabyasachirakshit.github.io/"
+            path="/"
             element={<HomeBody />}
           />
-          <Route path="/" element={<HomeBody />} />
           <Route
-            path="https://sabyasachirakshit.github.io/about"
+            path="/about"
             element={<About />}
           />
           <Route
-            path="https://sabyasachirakshit.github.io/project"
+            path="/project"
             element={<Project />}
           />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
