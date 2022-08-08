@@ -7,17 +7,17 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path="/" element={<HomeBody />} />
           <Route
-            path="/"
+            path="https://sabyasachirakshit.github.io/"
             element={<HomeBody />}
           />
+          <Route path="/" element={<HomeBody />} />
           <Route
-            path="/about"
+            path="https://sabyasachirakshit.github.io/about"
             element={<About />}
           />
           <Route
-            path="/project"
+            path="https://sabyasachirakshit.github.io/project"
             element={<Project />}
           />
         </Routes>
